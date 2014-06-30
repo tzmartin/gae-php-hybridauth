@@ -1,0 +1,19 @@
+application: gae-php-hybridauth
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /auth
+  script: auth.php
+
+- url: /logout
+  script: logout.php
+
+- url: .*
+  script: main.php

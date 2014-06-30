@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "310491042344face59ad0a032342e8dc",
+    "packages": [
+        {
+            "name": "google/apiclient",
+            "version": "1.0.4-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "eb5934d58761f1a8575e6df6de02fdce89dd89d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/eb5934d58761f1a8575e6df6de02fdce89dd89d2",
+                "reference": "eb5934d58761f1a8575e6df6de02fdce89dd89d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2014-03-07 17:54:19"
+        },
+        {
+            "name": "tzmartin/hybridauth-gae",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tzmartin/hybridauth-gae.git",
+                "reference": "2bbe02d21f86db287555bbb0c782642d33d04e57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tzmartin/hybridauth-gae/zipball/2bbe02d21f86db287555bbb0c782642d33d04e57",
+                "reference": "2bbe02d21f86db287555bbb0c782642d33d04e57",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Hybrid": "hybridauth/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(MIT or GPL-3.0+)"
+            ],
+            "authors": [
+                {
+                    "name": "Miled",
+                    "email": "hybridauth@gmail.com"
+                },
+                {
+                    "name": "tzmartin",
+                    "email": "martin@semanticpress.com"
+                }
+            ],
+            "description": "Hybridauth for Google App Engine PHP interpreter.  This fixes cUrl and provides a model layer for unified auth management on GAE. Forked from v2.2.0.",
+            "homepage": "https://github.com/tzmartin/hybridauth-gae",
+            "keywords": [
+                "OpenId",
+                "app engine",
+                "facebook",
+                "gae",
+                "google",
+                "hybridauth",
+                "login",
+                "oauth",
+                "social",
+                "twitter",
+                "yahoo"
+            ],
+            "time": "2014-06-30 08:23:50"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "google/apiclient": 10,
+        "tzmartin/hybridauth-gae": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
