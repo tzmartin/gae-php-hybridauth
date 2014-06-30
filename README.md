@@ -49,6 +49,13 @@ composer install
 
 **Step 2**: Create ```config.php``` by modifying ```config.example.php``` to define available [authentication providers](http://hybridauth.sourceforge.net/userguide.html).
 
+For the demo, you need to create accounts for:
+
+- Facebook: [https://developers.facebook.com/apps](https://developers.facebook.com/apps)
+- Github: [https://github.com/settings/applications/new](https://github.com/settings/applications/new)
+- Twitter: [http://dev.twitter.com](http://dev.twitter.com)
+- Foursquare: [https://foursquare.com/developers/apps](https://foursquare.com/developers/apps)
+
 **Step 3**: Deploy to App Engine.
 
 ## Additional info

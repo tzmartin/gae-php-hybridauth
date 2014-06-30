@@ -44,13 +44,16 @@ $header = <<< EOF
       <a href="/auth?provider=Google"><img src="http://g.etfv.co/http://www.google.com" alt="Google">Google</a>
     </li>
     <li class="facebook">
-      <a href="/auth?provider=Facebook"><img src="http://g.etfv.co/http://www.facebook.com" alt="Google">Facebook</a>
+      <a href="/auth?provider=Facebook"><img src="http://g.etfv.co/http://www.facebook.com" alt="Facebook">Facebook</a>
     </li>
     <li class="github">
-      <a href="/auth?provider=GitHub"><img src="http://g.etfv.co/http://www.github.com" alt="Google">Github</a>
+      <a href="/auth?provider=GitHub"><img src="http://g.etfv.co/http://www.github.com" alt="Github">Github</a>
     </li>
     <li class="twitter">
-      <a href="/auth?provider=Twitter"><img src="http://g.etfv.co/http://www.twitter.com" alt="Google">Twitter</a>
+      <a href="/auth?provider=Twitter"><img src="http://g.etfv.co/http://www.twitter.com" alt="Twitter">Twitter</a>
+    </li>
+    <li class="twitter">
+      <a href="/auth?provider=Foursquare"><img src="http://g.etfv.co/http://www.foursquare.com" alt="Foursquare">Foursquare</a>
     </li>
   </ul>
 EOF;
