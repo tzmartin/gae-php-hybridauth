@@ -1,8 +1,8 @@
-# Google App Engine PHP HybridAuth Demo
+# Google App Engine PHP HybridAuth
+
+### Demo: [http://gae-php-hybridauth.appspot.com](http://gae-php-hybridauth.appspot.com)
 
 This release makes [HybridAuth](http://hybridauth.sourceforge.net) compatible with the GAE PHP interpreter and enables you to offer users multiple sign in options for your GAE application, not just Google Accounts.
-
-**Live demo**: [http://gae-php-hybridauth.appspot.com](http://gae-php-hybridauth.appspot.com)
 
 ### Design Goal
 
