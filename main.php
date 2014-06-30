@@ -38,7 +38,7 @@ EOF;
 // Logged OUT!
 $title = "GAE PHP Hybrid Auth Demo - Login";
 $header = <<< EOF
-  <h3>Try it</h3>
+  <h3>Try it</h3><img src="/images/img.arrow.png" width="70" height="30" style="margin-left: 10px;">
   <ul>
     <li>
       <a href="/auth?provider=Google"><img src="http://g.etfv.co/http://www.google.com" alt="Google">Google</a>
@@ -69,8 +69,8 @@ $style = <<< EOF
     li a {text-decoration: none;font-size: 1.2em;}
     li img {width:16px;height:16px;padding-right: 4px;}
     h1 a {font-size:11px;font-style:superscript;}
-    h3 {font-family:Helvetica;}
-    h4 {color:#333;font-family:Helvetica;font-size:80%;margin-bottom: 0px;border-left: 1px #ddd solid;border-right: 1px #ddd solid;padding: 0px 5px 0px 5px;border-top: 1px #ddd solid;width: 80px;text-align: center;}
+    h3 {float: left;margin: 0;margin-bottom: 20px;}
+    h4 {color:#333;font-size:80%;margin-bottom: 0px;border-left: 1px #ddd solid;border-right: 1px #ddd solid;padding: 0px 5px 0px 5px;border-top: 1px #ddd solid;width: 80px;text-align: center;}
     pre {margin-top: 0;border:1px solid #ddd;padding:6px 10px;background-color:#fafafa;overflow: auto;-webkit-font-smoothing: auto;font-size: 13px;color: #080;font-family:courier;}
     #maincontent {padding:1.5em;margin: 3em;border-radius: 3px;background: #fff;}
     .btnbar {margin-top: -15px;margin-bottom: 20px;}

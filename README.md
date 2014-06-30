@@ -2,6 +2,8 @@
 
 ### Demo: [http://gae-php-hybridauth.appspot.com](http://gae-php-hybridauth.appspot.com)
 
+[![Try it](https://api.monosnap.com/image/download?id=KtKvM8bPxPaRfylOax9HiI2Ji9oyta)](http://gae-php-hybridauth.appspot.com)
+
 This release makes [HybridAuth](http://hybridauth.sourceforge.net) compatible with the GAE PHP interpreter and enables you to offer users multiple sign in options for your GAE application, not just Google Accounts.
 
 ### Design Goal
