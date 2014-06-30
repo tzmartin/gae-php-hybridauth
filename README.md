@@ -39,13 +39,21 @@ $User->authenticate( $_GET['provider'], array('hauth_return_to' => $url) );
 
 ## Install
 
-If using composer..
+**Step 1**: Using composer..
 
 ```
 composer install
 ```
 
-If old school, download the standalone [hybridauth-gae](https://github.com/tzmartin/hybridauth-gae) library from Github and put in your project.
+*If old school, download the standalone [hybridauth-gae](https://github.com/tzmartin/hybridauth-gae) library from Github and put in your project.*
+
+**Step 2**: Create ```config.php``` by modifying ```config.example.php``` to define available [authentication providers](http://hybridauth.sourceforge.net/userguide.html).
+
+**Step 3**: Deploy to App Engine.
+
+## Additional info
+
+Refer to [HybridAuth](http://hybridauth.sourceforge.net/apidoc.html)'s documentation for social provider coverage and APIs.
 
 ### License
 
