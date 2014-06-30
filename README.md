@@ -4,13 +4,15 @@
 
 [![Try it](https://api.monosnap.com/image/download?id=KtKvM8bPxPaRfylOax9HiI2Ji9oyta)](http://gae-php-hybridauth.appspot.com)
 
-This release makes [HybridAuth](http://hybridauth.sourceforge.net) compatible with the GAE PHP interpreter and enables you to offer users multiple sign in options for your GAE application, not just Google Accounts.
+Add multiple authentication support for GAE (PHP) using [HybridAuth](http://hybridauth.sourceforge.net) under the covers.  This enables you to offer users multiple sign in options for your GAE application, not just Google Accounts.  Consider it a boilerplate for PHP apps on GAE. 
 
 ### Design Goal
 
-The main goal is to act as an abstract API between your application and various social apis and identities providers (such as Facebook, Twitter or Github), while still leveraging the native User APIs on App Engine and Google's single sign on capabilities.
+The main goal is to provide an abstract layer between your application and the various social apis and identities providers (such as Facebook, Twitter or Github), while still leveraging the native User APIs on App Engine and Google's single sign on capabilities.  <-- This is key.
 
-Previously, HybridAuth did not play well with GAE due to GAE's lack of support for cUrl and the decoupling of HybridAuth's authentication flow with the native GAE User APIs.
+Previously, HybridAuth did not play well with GAE due to GAE's lack of support for cUrl and the decoupling of HybridAuth's authentication flow with the native GAE User APIs.  Rather than invoke *additional RPC calls* to interact Google's OAuth2 endpoints from HybridAuth, this project bypasses that and uses the instantiated User classes available in an isolated App Engine container.
+
+Faster performance, more security while still supporting third-party providers using a **single API**.
 
 This fork addresses these concerns while introducing a unified model layer for authentication and profile normalization.
 
@@ -66,7 +68,7 @@ Refer to [HybridAuth](http://hybridauth.sourceforge.net/apidoc.html)'s documenta
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Terry Z Martin
+Copyright (c) 2014 [TZ Martin](http://twitter.com/tzmartin)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
