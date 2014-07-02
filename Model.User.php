@@ -35,7 +35,7 @@ final class UserModel {
   private $memcache = false;
 
   // Ephemeral object that holds profile data during a session.
-  private static $profile = array();
+  private $profile = array();
   
   /**
    * Normalized properties across all identity providers as defined by HybridAuth.
@@ -90,8 +90,12 @@ final class UserModel {
     return $this->getProfile()['identifier'];
   }
   
-  public function getProfile() {    
-    return $this->memcache->get($_SESSION['fingerprint']);   
+  public function getProfile() {
+    if (isset($_SESSION['fingerprint'])) {
+      return $this->memcache->get($_SESSION['fingerprint']);
+    } else {
+      return false;
+    }
   }
   
   public function setProfile($options) {
